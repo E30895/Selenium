@@ -32,7 +32,7 @@ time.sleep(5)
 browser.find_element(By.XPATH, '/html/body/div[4]/div/div[2]/div/div/div[2]/div/div[2]/button[2]/span[2]').click()
 
 time.sleep(5)
-browser.get('https://sicredi.deskbee.app/app/booking/workspace')
+browser.get('')
 
 browser.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/div/main/form/div[1]/div/label/div/div[1]/div[2]/input').send_keys(future_date)
 browser.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/div/main/form/div[2]/div[1]/label/div[1]/div[1]/div/input').send_keys("09:00")
