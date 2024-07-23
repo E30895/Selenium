@@ -21,7 +21,9 @@ future_date = add_business_days(date.today(), 8, Brazil())
 future_date = future_date.strftime("%d/%m/%Y")
 
 browser = webdriver.Edge()
-browser.get('https://sicredi.deskbee.app/app/home')
+
+#caminho para o deskbee
+browser.get('')
 
 time.sleep(5)
 browser.find_element(By.XPATH, '//*[@id="q-app"]/div/div/main/form/div/div/div[2]/div/div/button/span[2]').click()
